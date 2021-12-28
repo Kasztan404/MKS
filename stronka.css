@@ -19,6 +19,15 @@ h1{
 	font-family: Verdana, sans-serif;
 	font-size:28px;
 }
+h2{
+	text-align:Left;
+    margin:5px;
+	margin-left:40px;
+    padding:5px;
+	color: black;
+	font-family: Verdana, sans-serif;
+	font-size:24px;
+}
 
 figure.in{
 	float: left;
