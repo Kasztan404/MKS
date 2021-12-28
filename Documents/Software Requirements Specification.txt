@@ -1,0 +1,53 @@
+#MKS PROJECT
+
+
+Software Reqirements Specification
+
+1.0
+
+28/12/2021
+
+
+
+
+
+#Revision History
+|   Date   | Description |   Author   |    Comments    |
+| 28/12/21 | Version 1.0 | Kasztan404 |  Initial Draft |
+
+#1. Introduction
+The MKS project aims to provide knowledge about International Signal Code also
+it is designed as help tool for professional use.
+This release will have limited feature. Over a period of time, new functionalities will be added to
+the site.
+
+#1.1 Purpose
+The Purpose of this document is to outline the requirements for the MKS website to be developed for Kasztan404.
+This document will be used by all stakeholders inculding developers and testers.
+
+#1.2 Scope
+The scope of this project is limited to the testing of the features described in the succeeding sections of this document.
+Non-functional testing like stress,performance is beyond scope of this project.
+Automation testing is beyond scope.
+No QA support for mobile application developed. 
+Only web service will be tested.
+Functional testing & external interfaces are in scope and need to be tested
+The MKS site will be only compatible with Brave version 1.33.106 and above.
+
+#2 Decription of the modules
+
+a) ICS - short information about ICS
+b) ICS flag - 1 letter signals table,
+c) contact 
+
+#3 Functional validation
+ 
+ ##ICS
+ F1 - clear information about ICS should be presented;
+
+ ##ICS flag 
+ F2 - all letter from A-Z with morse, flag and meaning should be presented;
+
+## contac
+F3 - contact email should be presented; 
+ 
