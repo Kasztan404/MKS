@@ -1,4 +1,4 @@
-	var t="tonmej";
+	var t="tonmai";
 	var wynik=0;
 function pokazMail() {
 	var paragraf = document.createElement("p");  

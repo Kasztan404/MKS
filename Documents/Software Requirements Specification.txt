@@ -48,6 +48,6 @@ c) contact
  ##ICS flag 
  F2 - all letter from A-Z with morse, flag and meaning should be presented;
 
-## contac
-F3 - contact email should be presented; 
+ ## contac
+ F3 - contact email should be presented only after positive human verification; 
  

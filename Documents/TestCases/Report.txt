@@ -1,0 +1,66 @@
+#Test Report
+
+Test done: TC 1.0, TC 2.0, TC 3.0, TC 3.1, TC 3.2, TC 3.3, TC 3.4;
+All pass: YES;
+
+Remarks:
+
+1) R_2_1
+To test scenario S2, test case: TC 2.0
+
+	#Place:
+	flagi.html -> Table Col: "Flaga", Row: "B"
+
+	#Description:
+	Picture of Bravo flag, B.png is not transparent, should be without white triangle - should look like A.png
+
+	#see: R_2_1.png
+
+
+2) R_2_1
+To test scenario S2, test case: TC 2.0
+
+	#Place:
+	flagi.html -> scroll down the page -> bottom of the Table -> table caption "Źródło zdjęć: COMMONS.WIKIMEDIA.ORG"
+
+	#Description:
+	Caption of the table: "Źródło zdjęć: COMMONS.WIKIMEDIA.ORG" should be more visible, suggestion move it a little lower.
+
+	#see: R_2_2.png
+	
+	
+3) R_3_2_1
+To test scenario S3, TC 3.2
+
+Test case shoul be reproject -> instead step 4-7 -> step with new TD "!Q" -> 2 step less
+
+4) R_3_2_2
+To test scenario S3, TC 3.2
+
+	#Place:
+	kontakt.html -> input field
+
+	#Description:
+	Width of input field should be for 1 digit and text in input field should be center
+	#see: R_3_2_2.png
+	
+5) R_3_4_1
+To test scenario S3, TC 3.4
+
+	#Place:
+	kontakt.html -> mail adress
+
+	#Description:
+	Mail adress should be centered, <- + possible to easy sent meil (1-click) 
+	#see: R_3_4_1.png
+
+6) R_3_4_2
+To test scenario S3, TC 3.4
+
+	#Place:
+	kontakt.html -> button "Sprwadź odpowiedź" + Question-answer text + input field
+
+	#Description:
+	button "Sprwadź odpowiedź" + Question-answer text + input field <- should disapear after correct answer.
+	#see: R_3_4_2.png
+
