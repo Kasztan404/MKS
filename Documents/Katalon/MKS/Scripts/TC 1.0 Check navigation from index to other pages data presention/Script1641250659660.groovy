@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('file:///C:/tester/mks/MKS/index.html')
+tu = (GlobalVariable.adres + '//index.html')
+
+WebUI.navigateToUrl(tu)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_/h2_Sygnay dwikowe'))
 
@@ -27,11 +29,11 @@ WebUI.click(findTestObject('Object Repository/Page_/a_Flagi'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_/th_Flaga'), 0)
 
-WebUI.navigateToUrl('file:///C:/tester/mks/MKS/index.html')
+WebUI.navigateToUrl(tu)
 
 WebUI.click(findTestObject('Page_/a_Kontakt'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_/h1_Aby zobaczy mejl rozwi zagadk'))
 
-WebUI.navigateToUrl('file:///C:/tester/mks/MKS/index.html')
+WebUI.closeBrowser()
 

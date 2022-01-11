@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>localization of Main folder with Index.html</description>
+      <initValue>'C:\\tester\\mks\\MKS'</initValue>
+      <name>adres</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
