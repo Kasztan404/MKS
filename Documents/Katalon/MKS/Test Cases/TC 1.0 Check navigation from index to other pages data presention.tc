@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1.0 Check navigation from index to other pages data presention</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36f0350d-6e0a-4aa4-a37b-cdb0fc70cfe3</testCaseGuid>
+</TestCaseEntity>
