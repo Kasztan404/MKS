@@ -12,8 +12,9 @@ Software Reqirements Specification
 
 
 #Revision History
-|   Date   | Description |   Author   |    Comments    |
-| 28/12/21 | Version 1.0 | Kasztan404 |  Initial Draft |
+|   Date   | Description |   Author   |     Comments     |
+| 28/12/21 | Version 1.0 | Kasztan404 |   Initial Draft  |
+| 11/01/22 | VERSION 1.1 | Kasztan404 | Automation Tests |
 
 #1. Introduction
 The MKS project aims to provide knowledge about International Signal Code also
@@ -28,7 +29,7 @@ This document will be used by all stakeholders inculding developers and testers.
 #1.2 Scope
 The scope of this project is limited to the testing of the features described in the succeeding sections of this document.
 Non-functional testing like stress,performance is beyond scope of this project.
-Automation testing is beyond scope.
+Automation testing is in scope and will be developed using Katalon Studio.
 No QA support for mobile application developed. 
 Only web service will be tested.
 Functional testing & external interfaces are in scope and need to be tested
