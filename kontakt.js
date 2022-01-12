@@ -19,7 +19,7 @@ function input() {
 			document.getElementById("rozwiazanie").value="";
 		}	
 		else {
-			if ( liczba==3)
+			if ( liczba==2*(5%4+7%4)-5)
 			{
 				alert ("TAK!");
 				pokazMail();
