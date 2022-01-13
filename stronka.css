@@ -183,3 +183,8 @@ ul{
 .button {
     margin: 0 auto;
 }
+
+caption{
+	caption-side: bottom;
+	margin: 10px;
+}

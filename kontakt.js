@@ -1,10 +1,26 @@
 	var t="tonmai";
 	var wynik=0;
 function pokazMail() {
-	var paragraf = document.createElement("p");  
-	var textparagraf = document.createTextNode("Mój mejl to: "+"m.pes"+t[0]+"ka"+"@pro"+t+"l"+".com");
-	paragraf.appendChild(textparagraf);    
+	 
+	
+	document.getElementsByTagName('h1')[1].innerHTML='Brawo, zgadłeś!';	
+	document.getElementsByTagName('p')[0].remove();
+	document.getElementsByTagName('button')[0].remove();
+	
+	var sheet = document.createElement('style')
+	sheet.innerHTML = "p {text-align:center; margin-left:auto; margin-right:auto;}";
+	document.body.appendChild(sheet);
+	var paragraf = document.createElement("p"); 
+	
+	var textparagraf = document.createTextNode("Mój mejl to: ")//'"' + "m.pes"+t[0]+"ka"+"@pro"+t+"l"+".com");
+	paragraf.appendChild(textparagraf);  
+
 	document.getElementsByClassName('tresc2')[0].appendChild(paragraf);
+	var mail = document.createElement("a");
+	mail.href="mailto:m.pes"+t[0]+"ka"+"@pro"+t+"l"+".com?subject=Feedback";
+	mail.innerHTML="m.pes"+t[0]+"ka"+"@pro"+t+"l"+".com";
+	document.getElementsByTagName('p')[1].appendChild(mail);
+	
 }
 function input() {
 	var odpowiedz = document.getElementById("rozwiazanie").value;
